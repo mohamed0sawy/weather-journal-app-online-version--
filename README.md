@@ -15,3 +15,6 @@ If you interested you can check it out from here : https://github.com/mohamed0ta
 * javascript
 * HTML
 * CSS
+
+## link to preview
+https://mohamed0tarek.github.io/weather-journal-app--online-version-/
