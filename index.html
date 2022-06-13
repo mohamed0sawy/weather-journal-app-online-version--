@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<title>Weather Journal</title>
+		<!-- Googel Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="back"></div>
+		<div id="app">
+			<div class="holder headline">Weather Journal App</div>
+			<div class="title">Enter Zip-Code Or City name</div>
+			<div class="holder zip">
+				<div class="zipcode">
+					<input type="text" id="zip" placeholder="zip code" autocomplete="off" />
+				</div>
+				<div class="or">OR</div>
+				<div class="city">
+					<input type="text" id="city" placeholder="city name" autocomplete="off" />
+				</div>
+			</div>
+			<div class="holder feel">
+				<label for="feelings">How are you feeling today?</label>
+				<textarea
+					class="myInput"
+					id="feelings"
+					placeholder="Enter your feelings here"
+					rows="9"
+					cols="50"
+				></textarea>
+			</div>
+			<button id="generate" type="submit">Generate</button>
+			<div class="holder entry">
+				<div class="title results">RESULTS!</div>
+				<div id="entryHolder">
+					<div class="ret">
+						<div>Country</div>
+						<div id="name"></div>
+					</div>
+					<div class="ret">
+						<div>Temperature</div>
+						<div class="temp">
+							<div id="fer"><span>F</span></div>
+							<div id="cel"><span>C</span></div>
+						</div>
+					</div>
+					<div class="ret">
+						<div>Max Temperature</div>
+						<div class="temp">
+							<div id="maxfer"><span>F</span></div>
+							<div id="maxcel"><span>C</span></div>
+						</div>
+					</div>
+					<div id="mintemp" class="ret">
+						<div>Min Temperature</div>
+						<div class="temp">
+							<div id="minfer"><span>F</span></div>
+							<div id="mincel"><span>C</span></div>
+						</div>
+					</div>
+					<div class="ret">
+						<div>Date</div>
+						<div id="date"></div>
+					</div>
+					<div class="ret">
+						<div>Your feelings</div>
+						<div id="content"></div>
+					</div>
+				</div>
+			</div>
+			<div class="error">
+				<div id="text">The Input is not True please try again</div>
+				<button id="again">Try Again</button>
+			</div>
+		</div>
+		<script src="app.js" type="text/javascript"></script>
+	</body>
+</html>
