@@ -206,7 +206,6 @@ div#fer,
 	z-index: 2;
 	display: none;
 	position: fixed;
-	transition: 2s;
 }
 
 #again {
