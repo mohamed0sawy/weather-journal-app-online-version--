@@ -17,4 +17,4 @@ If you interested you can check it out from here : https://github.com/mohamed0ta
 * CSS
 
 ## link to preview
-https://mohamed0tarek.github.io/weather-journal-app-online-version-/
+https://mohamed0tarek.github.io/weather-journal-app-online-version--/
