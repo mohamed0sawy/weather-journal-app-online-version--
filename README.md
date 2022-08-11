@@ -9,7 +9,7 @@ I built another version where I used `Node.js` and `Express` to built a local-se
 If you interested you can check it out from here : https://github.com/mohamed0tarek/Udacity/tree/main/weather-journal-app
 
 ## How to work
-* Ent  er the city name or zipCode and press the button to show the resutls
+* Enter the city name or zipCode and press the button to show the resutls
 
 ## Technologies
 * javascript
