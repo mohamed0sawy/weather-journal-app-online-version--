@@ -6,7 +6,7 @@ This project is asynchronous web app that uses Web-API(OpenWeather) and user dat
 show the country, temperature, min-and-max temperature, date and user feelings. 
 #### NOTE 
 I built another version where I used `Node.js` and `Express` to built a local-server works locally that can receives `GET` and `POST` .
-If you interested you can check it out from here : https://github.com/mohamed0tarek/Udacity/tree/main/weather-journal-app
+If you interested you can check it out from here : https://github.com/mohamed0sawy/Udacity/tree/main/weather-journal-app
 
 ## How to work
 * Enter the city name or zipCode and press the button to show the resutls
@@ -17,4 +17,4 @@ If you interested you can check it out from here : https://github.com/mohamed0ta
 * CSS
 
 ## link to preview
-https://mohamed0tarek.github.io/weather-journal-app-online-version--/
+https://mohamed0sawy.github.io/weather-journal-app-online-version--/
